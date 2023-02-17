@@ -220,6 +220,42 @@ p{
 
 }
 
+@media screen and (max-width: 420px){
+    .img_profile{
+        margin-left: 120px;
+    }
+
+    .description{
+        width: 330px;
+        margin-left: 50px;
+    }
+
+    .definition{
+        font-size: 27px;
+    }
+
+    .projects{
+        margin-top: 350px;
+    }
+
+    .title-project{
+        margin: 30px 60px;
+    }
+
+
+    .img-project{
+        width: 360px;
+        height: 160px;
+        margin-left: 30px;
+    }
+
+    .description-project{
+        width: 360px;
+        margin-left: 30px;
+    }
+
+}
+
 @media screen and (max-width: 400px){
     .img_profile{
         margin-left: 100px;
@@ -315,3 +351,4 @@ p{
     }
 
 }
+
