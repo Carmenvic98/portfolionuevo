@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to right, #512465, #1A0B2E);
+}
+
+.navbar{
+    background-color: #1A0B2E;
+}
+
+.navbar-logo{
+    width: 70px;
+}
+
+.nav-link{
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    color: white;
+}
+

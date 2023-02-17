@@ -1,0 +1,41 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<header class="about">
+    <div class="profile">
+        <img class="img_profile" src="{% static 'portfolio/profile.png' %}" alt="">
+    </div>
+
+    <div class="description">
+        <h1>Hola, soy <span class="name">Carmen Rios</span></h1>
+        <h2>Programadora</h2>
+        <p>Soy una desarrolladora full stack, he trabajado en proyectos de desarrollo web incluyendo tecnologías como HTML, CSS, JavaScript, Angular , Python, SCSS, MySQL y Django creando productos sólidos y escalables. Durante mi formación he adquirido gran capacidad de trabajo en equipo.</p>
+        <a href="{% static 'portfolio/curriculum.pdf' %}" class="btn_cv">Descarga CV</a>
+
+    </div>
+</header>
+
+
+<div id="projects" class="projects">
+    <h2 class="definition">Mis Proyectos</h2>
+    {% for project in projects %}
+    <h2 class="title-project">{{project.title}}</h2>
+    <div class="project">
+        <img class="img-project" src="{{project.image.url}}" alt="{{project.title}}">
+        <p class="description-project">{{project.description}}</p>
+    </div>
+    <div class="link">
+        {% if project.url %}
+        <a class="url" href="{{project.url}}">{{project.url}}</a>
+        {% endif %}
+
+        {% endfor %}
+
+        {% endblock%}
+    </div>
+</div>
