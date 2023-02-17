@@ -93,6 +93,22 @@ p{
     margin-top: 20px;
 }
 
+.contact{
+    margin: 40px 80px;
+}
+
+.contact-me{
+    color: white;
+}
+
+.networks{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.networks i{
+    margin-right: 20px;
+}
 
 @media screen and (max-width: 600px){
     .about{
@@ -135,4 +151,167 @@ p{
         margin-left: 90px;
         margin-top: 20px;
     }
+}
+
+@media screen and (max-width: 500px){
+    .img_profile{
+        width: 200px;
+        height: 320px;
+        margin-left: 140px;
+    }
+
+    .description{
+        width: 350px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+
+    .name{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+
+    .btn_cv{
+        padding: 8px 12px;
+        font-size: 15px;
+        margin-left: 110px;
+    }
+
+    .definition{
+        font-size: 30px;
+    }
+
+    .projects{
+        margin-top: 350px;
+    }
+
+    .title-project{
+        margin: 30px 80px;
+    }
+
+
+    .img-project{
+        width: 380px;
+        height: 180px;
+        margin-left: 60px;
+    }
+
+    .description-project{
+        width: 380px;
+        margin-left: 60px;
+    }
+
+    .url{
+        margin-left: 70px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .img_profile{
+        margin-left: 100px;
+    }
+
+    .description{
+        width: 320px;
+        margin-left: 40px;
+    }
+
+    .btn_cv{
+        margin-left: 100px;
+    }
+
+    .projects{
+        margin-top: 370px;
+    }
+
+    .title-project{
+        margin: 30px 50px;
+    }
+
+
+    .img-project{
+        width: 340px;
+        height: 160px;
+        margin-left: 30px;
+    }
+
+    .description-project{
+        width: 340px;
+        margin-left: 30px;
+    }
+
+    .url{
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .img_profile{
+        margin-left: 80px;
+    }
+
+    .description{
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+
+    .name{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .btn_cv{
+        margin-left: 90px;
+    }
+
+    .definition{
+        font-size: 22px;
+    }
+
+
+    .title-project{
+        margin: 30px 30px;
+        font-size: 18px;
+    }
+
+
+    .img-project{
+        width: 310px;
+        height: 130px;
+        margin-left: 20px;
+    }
+
+    .description-project{
+        width: 310px;
+        margin-left: 20px;
+    }
+
+    .url{
+        margin-left: 20px;
+
+    }
+
 }
